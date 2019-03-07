@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Velrino</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Velrino">
+    <meta name="author" content="Velrino">
+    <link rel="shortcut icon" href="velrino.ico">
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
+        rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1"
+        crossorigin="anonymous"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-1.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile img-thumbnail img-circle" src="assets/images/profile.jpg" alt="" />
+                <h1 class="name">Denis Magalhães</h1>
+                <h3 class="tagline">Desenvolvedor</h3>
+            </div>
+            <!--//profile-container-->
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="phone">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:+5511977517493">(11) 97751-7493</a>
+                    </li>
+                    <li class="email">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto: velrino@gmail.com">velrino@gmail.com</a>
+                    </li>
+                    <li class="linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                        <a href="https://www.linkedin.com/in/velrino" target="_blank">linkedin.com/in/velrino</a>
+                    </li>
+                    <li class="github">
+                        <i class="fab fa-github"></i>
+                        <a href="https://www.github.com/velrino" target="_blank">github.com/velrino</a>
+                    </li>
+                    <li class="globe">
+                        <i class="fas fa-globe"></i>
+                        <a href="https://velrino.github.io" target="_blank">velrino.github.io</a>
+                    </li>
+                </ul>
+            </div>
+            <!--//contact-container-->
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Educação</h2>
+                <div class="item">
+                    <h4 class="degree">Gestão de Projetos</h4>
+                    <h5 class="meta">Universidade de São Paulo</h5>
+                    <div class="time">2018 - 2019</div>
+                </div>
+                <!--//item-->
+                <div class="item">
+                    <h4 class="degree">Análise e Desenvolvimento de Sistemas</h4>
+                    <h5 class="meta">Universidade Paulista</h5>
+                    <div class="time">2014 - 2016</div>
+                </div>
+                <!--//item-->
+            </div>
+            <!--//cursos-container-->
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Cursos</h2>
+                <div class="item">
+                    <h4 class="degree">Data Analysis with R</h4>
+                    <h5 class="meta">Udacity</h5>
+                    <div class="time">2017 - 2017</div>
+                </div>
+                <div class="item">
+                    <h4 class="degree">Data Analysis with Python</h4>
+                    <h5 class="meta">Udacity</h5>
+                    <div class="time">2017 - 2017</div>
+                </div>
+                <div class="item">
+                    <h4 class="degree">Introdução ao NodeJS com Typescript</h4>
+                    <h5 class="meta">Microsoft Virtual Academy</h5>
+                    <div class="time">2016 - 2016</div>
+                </div>
+                <div class="item">
+                    <h4 class="degree">Introdução AngularJS</h4>
+                    <h5 class="meta">Microsoft Virtual Academy</h5>
+                    <div class="time">2015 - 2015</div>
+                </div>
+                <div class="item">
+                    <h4 class="degree">Jogos com Unity</h4>
+                    <h5 class="meta">Microsoft Virtual Academy</h5>
+                    <div class="time">2014 - 2014</div>
+                </div>
+                <!--//item-->
+            </div>
+            <!--//education-container-->
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Idiomas</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Mandarim
+                        <span class="lang-desc">(Iniciante)</span>
+                    </li>
+                </ul>
+                <ul class="list-unstyled interests-list">
+                    <li>Espanhol
+                        <span class="lang-desc">(Iniciante)</span>
+                    </li>
+                </ul>
+                <ul class="list-unstyled interests-list">
+                    <li>Inglês
+                        <span class="lang-desc">(Avançado)</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--//sidebar-wrapper-->
+        <div class="main-wrapper">
+            <section class="section summary-section">
+                <h2 class="section-title">
+                    <span class="icon-holder">
+                        <i class="fas fa-user"></i>
+                    </span>Carreira
+                </h2>
+                <div class="summary">
+                    <p>"Não trabalhe duro. Trabalhe de forma inteligente"</br>
+                        A frase acima é para demonstrar que mesmo em situação de complexidade procuro soluções eficientes sendo simples.
+                    </p>
+                    <p id="apresentacao"></p>
+                    <p>Experiência como desenvolvedor, compartilho meu conhecimento como palestrante, formado em Análise de
+                        Desenvolvimento de Sistemas e atualmente cursando pós-graduação em Gestão de Projetos na USP.
+                    </p>
+                    <p>Apaixonado pelo ecossistema de inovação, sempre aprendendo e compartilhando conhecimento e debatendo
+                        experiências com quem gosta de fazer o mesmo. Falo Inglês e Português. Também possuo amplo e profundo
+                        conhecimento do universo digital.
+                    </p>
+                    <p>Eu amo o que faço e estou constantemente me aprimorando.</p>
+                    <a href="script.js" target="_blank">Exemplo do meu texto de apresentação acima utilizando um código simples e com legibilidade.</a>
+                </div>
+                <!--//summary-->
+            </section>
+            <!--//section-->
+            <section class="section experiences-section">
+                <h2 class="section-title">
+                    <span class="icon-holder">
+                        <i class="fas fa-briefcase"></i>
+                    </span>Experiências
+                </h2>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Analista - Accenture</h3>
+                            <div class="time">2018 - Atualmente</div>
+                        </div>
+                        <!--//upper-row-->
+                        <div class="company">São Paulo</div>
+                    </div>
+                    <!--//meta-->
+                </div>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Autônomo - Velrino</h3>
+                            <div class="time">05/2015 - Atualmente</div>
+                        </div>
+                        <!--//upper-row-->
+                        <div class="company">São Paulo</div>
+                    </div>
+                    <!--//meta-->
+                </div>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Analista Pleno - Quero Quitar</h3>
+                            <div class="time">04/2016 - 01/2017</div>
+                        </div>
+                        <!--//upper-row-->
+                        <div class="company">São Paulo</div>
+                    </div>
+                    <!--//meta-->
+                </div>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Estagiário - Ingresse</h3>
+                            <div class="time">12/2014 - 03/2015</div>
+                        </div>
+                        <!--//upper-row-->
+                        <div class="company">São Paulo</div>
+                    </div>
+                    <!--//meta-->
+                </div>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Jovem Aprendiz - Porto Seguro</h3>
+                            <div class="time">11/2013 - 10/2014</div>
+                        </div>
+                        <!--//upper-row-->
+                        <div class="company">São Paulo</div>
+                    </div>
+                    <!--//meta-->
+                </div>
+            </section>
+            <!--//section-->
+            <section class="section projects-section">
+                <h2 class="section-title">
+                    <span class="icon-holder">
+                        <i class="fas fa-trophy"></i>
+                    </span>Complementares
+                </h2>
+                <div class="intro">
+                    <p>Algumas das qualificações que conquistei ao decorrer da minha vida pessoal e profissional.</p>
+                </div>
+                <div class="item">
+                    <span class="project-title">
+                        <a href="https://www.instagram.com/p/BP-05HrgHOG/" target=_blank "">Alugalogo Campus Party</a>
+                    </span> -
+                    <span class="project-tagline">Startup que participei foi convidada pela Campus Party</span>
+                </div>
+                <div class="item">
+                    <span class="project-title">
+                        <a href="https://www.instagram.com/p/Bj-LN3dB6Uh/" target=_blank "">CIAB FEBRABAN</a>
+                    </span> -
+                    <span class="project-tagline">Apresentação da solução criada no hackathon</span>
+                </div>
+                <div class="item">
+                    <span class="project-title">
+                        <a href="https://www.instagram.com/p/BQ24rEiBIRC/" target=_blank "">Google Campus Demo Day #1</a>
+                    </span> -
+                    <span class="project-tagline">Alugalogo vence o DemoDay da primeira turma do Google Campus</span>
+                </div>
+                <div class="item">
+                    <span class="project-title">
+                        <a href="https://www.instagram.com/p/BidCq-gBpTQ/" target=_blank "">Hackathon BEC</a>
+                    </span> -
+                    <span class="project-tagline">Solução para engajar a economia nacional entre os fornecedores de ofertas públicas da Bolsa Eletrônica
+                        de Compras (BEC) </span>
+                </div>
+                <div class="item">
+                    <span class="project-title">
+                        <a href="https://www.instagram.com/p/BT5CuEGB1Qx/" target=_blank "">Hackathon Castelo</a>
+                    </span> -
+                    <span class="project-tagline">Solução para engajar a economia nacional para afiliados com público B2C </span>
+                </div>
+                <div class="item">
+                    <span class="project-title">
+                        <a href="https://www.instagram.com/p/BU8BYILBWCD/" target=_blank "">Hack in Sampa 2017</a>
+                    </span> -
+                    <span class="project-tagline">Solução contra corrupção</span>
+                </div>
+                <div class="item">
+                    <span class="project-title">
+                        <a href="https://www.instagram.com/p/Bj3XpaGhb2o/" target=_blank "">Hackathon FEBRABAN</a>
+                    </span> -
+                    <span class="project-tagline">Solução inteligente para impostos voltada para pequenas e médias empresas</span>
+                </div>
+                <div class="item">
+                    <span class="project-title">
+                        <a href="https://www.instagram.com/p/BTkq87NhsP-/" target=_blank "">Hackathon NASA 2017</a>
+                    </span> -
+                    <span class="project-tagline">Fomos convidados para participar em 2017 </span>
+                </div>
+                <div class="item">
+                    <span class="project-title">
+                        <a href="https://www.instagram.com/p/BjS-XVmhvGc/" target=_blank "">Hack'n Bike</a>
+                    </span> -
+                    <span class="project-tagline">Solução automatizada e inteligente para validar os créditos do programa Bike SP</span>
+                </div>
+                <div class="item">
+                    <span class="project-title">
+                        <a href="https://www.instagram.com/p/Bjvp8iLhER-/" target=_blank "">Hack'n Bike: Eureka</a>
+                    </span> -
+                    <span class="project-tagline">Apresentação da solução criada no Hack'n Bike para os fundadores da Yellow</span>
+                </div>
+                <div class="item">
+                    <span class="project-title">
+                        <a href="https://play.google.com/store/apps/details?id=com.investelly.app" target=_blank "">Investelly</a>
+                    </span> -
+                    <span class="project-tagline">Duolingo de Criptomoedas que tentei lançar em 2018</span>
+                </div>
+                <div class="item">
+                    <span class="project-title">
+                        <a href="https://www.instagram.com/p/BgXUvi7lXq_/" target=_blank "">Movile: Blockchain </a>
+                    </span> -
+                    <span class="project-tagline">Apresentação de demonstração onde compartilhei uma experiência com Blockcypher</span>
+                </div>
+                <div class="item">
+                    <span class="project-title">
+                        <a href="https://www.instagram.com/p/Bs3SnT6g-CZ/" target=_blank "">Movile: Boas Práticas</a>
+                    </span> -
+                    <span class="project-tagline">Demonstrei utilizando Javascript e deixei claro como você vai ser eficiente e simples apenas conhecendo
+                        os recursos disponíveis</span>
+                </div>
+                <div class="item">
+                    <span class="project-title">
+                        <a href="https://www.instagram.com/p/BkMCkh4BlGJ/" target=_blank "">Mentor Hack In Sampa 2018</a>
+                    </span> -
+                    <span class="project-tagline">Mentor de tecnologia das equipes participantes do Hackathon com objetivo de criar soluções tecnológicas
+                        capazes de controlar os gastos públicos, apontar e enfrentar desvios, tendo como base o Projeto de
+                        Lei 01/2017 que tramita na Câmara Municipal de São Paulo</span>
+                </div>
+                <div class="item">
+                    <span class="project-title">
+                        <a href="https://www.instagram.com/p/BmWyTqIBDbZ/" target=_blank "">Mentor Gama Academy</a>
+                    </span> -
+                    <span class="project-tagline">Mentor em Angular para iniciantes na área de Tecnologia</span>
+                </div>
+                <div class="item">
+                    <span class="project-title">
+                        <a href="https://www.instagram.com/p/BnpfY_QB_sE/" target=_blank "">São Judas Innovation Day</a>
+                    </span> -
+                    <span class="project-tagline">Apesar de nunca ter estudado na São Judas, fui convidado para compartilhar como hackathons me ajudaram
+                        pessoalmente e profissionalmente</span>
+                </div>
+                <!--//item-->
+            </section>
+            <section class="skills-section section">
+                <h2 class="section-title">
+                    <span class="icon-holder">
+                        <i class="fas fa-lightbulb"></i>
+                    </span>Conhecimentos com Experiências
+                </h2>
+                <div class="skillset">
+                    <div class="item">
+                        <h3 class="level-title">APIs</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Amazon Web Services</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 50%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Back-end</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Design Patterns</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 50%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Fintech</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 50%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Front-end</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Linux</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 50%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Scrum</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">UX</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 50%"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="skills-section section">
+                <h2 class="section-title">
+                    <span class="icon-holder">
+                        <i class="fas fa-tools"></i>
+                    </span>Ferramentas
+                </h2>
+                <div class="skillset">
+                    <div class="item">
+                        <h3 class="level-title">Angular</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Docker</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 50%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Domain-Driven Design</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 50%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Ionic</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Golang</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 25%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Git</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">GraphQL</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 50%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">HTML</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Lint</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 25%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Javascript</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">MongoDB</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 25%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Node.Js</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Nginx</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 50%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">MySQL</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 60%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">PHP</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Python</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 35%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">React</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 30%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Test Driven Development</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 50%"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3 class="level-title">Typescript</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 50%"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--//skills-section-->
+        </div>
+        <!--//main-body-->
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
